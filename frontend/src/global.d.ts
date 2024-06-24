@@ -5,4 +5,8 @@ type Player = {
     pts: number
     expected: number
     price: number
+    active: boolean
+    pos: pos
 }
+
+type pos = "GK" | "DEF" | "MID" | "FWD" 
