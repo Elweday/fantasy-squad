@@ -21,10 +21,10 @@ backend-install:
 dev: frontend-dev backend-dev
 
 frontend-dev:
-	cd $(FRONTEND_DIR) && pnpm run dev
+	cd $(FRONTEND_DIR) && pnpm run dev &
 
 backend-dev:
-	cd $(BACKEND_DIR) && python -m flask run
+	cd $(BACKEND_DIR) && python -m flask run &
 
 # Build the frontend and backend
 build: frontend-build backend-build
