@@ -29,7 +29,7 @@ export default function Component( props: React.HTMLAttributes<HTMLDivElement> &
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-muted rounded-md p-3 text-center">
             <p className="text-sm text-muted-foreground">Previous</p>
-            <p className="text-2xl font-bold">{props.player.pts}</p>
+            <p className="text-2xl font-bold">{props.player.points}</p>
           </div>
           <div className="bg-muted rounded-md p-3 text-center">
             <p className="text-sm text-muted-foreground">Expected</p>

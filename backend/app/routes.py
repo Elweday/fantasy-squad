@@ -16,7 +16,7 @@ def get_players():
         'id': player.id,
         'name': player.name,
         'points': player.pts,
-        'expected_points': player.expected,
+        'expected': player.expected,
         'price': player.price,
         'team': player.team
     } for player in players]), 200
